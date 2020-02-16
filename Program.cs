@@ -8,7 +8,7 @@ namespace ConsoleSumOfMultiples
         {
             var cal = new NumbersCalculation();
             cal.getListOfMultiples(3, 5);
-            cal.sumNumbers(cal.listOfMultiples);
+            cal.sumNumbers();
             
             Console.WriteLine($"The sum of multiples of 3 and 5 below 1000 is: {cal.sumOfMultiples}");
         }

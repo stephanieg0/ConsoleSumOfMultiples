@@ -22,13 +22,13 @@ namespace ConsoleSumOfMultiples
             }
         }
 
-        public void sumNumbers(List<int> numbersList)
+        public void sumNumbers()
         {
-            if (numbersList.Count > 0)
+            if (listOfMultiples.Count > 0)
             {
-                for(int i = 0; i < numbersList.Count; i++)
+                for(int i = 0; i < listOfMultiples.Count; i++)
                 { 
-                    sumOfMultiples += numbersList[i];
+                    sumOfMultiples += listOfMultiples[i];
                 }
             }
         }
